@@ -5,11 +5,11 @@ var age = 20;
 var age = 30; // variable gets updated and also redeclared
 
 // let : Variables cannot be redeclare but can be update
-let age = 20;
-age = 30; // varible gets updated but didn't redclared
+let agel = 20;
+agel = 30; // varible gets updated but didn't redclared
 
 // const: Variables cannot be redeclare and update
-const age = 20; // cannot be redeclared or updated or will give error
+const agec = 20; // cannot be redeclared or updated or will give error
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -51,3 +51,8 @@ const student = {
     name: "Abhishek",
     age: 22,
 }
+
+// propmpt
+let num = prompt("Enter a number");
+let result = num % 5 === 0 ? "Multiple of 5" : "Not multiple of 5";  // ternary operator
+console.log(result);
