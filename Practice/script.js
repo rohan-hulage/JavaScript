@@ -185,4 +185,15 @@ for(let key in rohan){
 }
 
 
+// Sum of Two numbers using arrow function
+const addition = (a, b) => {
+    console.log(a + b)
+}
+
+console.log(addition(2,3));
+
+// DOM : Document object model : Access HTML in JS as object "document" and this is available in window object
+// when the eb page is loaded then the dom is getting created
+
+
 
