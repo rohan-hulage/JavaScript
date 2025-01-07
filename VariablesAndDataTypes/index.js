@@ -1,3 +1,5 @@
+console.log("Hello World!");
+
 // Variables :
 
 // var : Variable can be redeclare and upadate
@@ -47,12 +49,12 @@ let s = Symbol("Hello!"); // have type of symbol
 // Objects : Arrays, functions : objects are collection of value or peice of code which performs some functionality
 // objects have data with key and value
 
-const student = {
-    name: "Abhishek",
-    age: 22,
-}
+// const student = {
+//     name: "Abhishek",
+//     age: 22,
+// }
 
-// propmpt
-let num = prompt("Enter a number");
-let result = num % 5 === 0 ? "Multiple of 5" : "Not multiple of 5";  // ternary operator
-console.log(result);
+// // propmpt
+// let num = prompt("Enter a number");
+// let result = num % 5 === 0 ? "Multiple of 5" : "Not multiple of 5";  // ternary operator
+// console.log(result);
